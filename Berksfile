@@ -32,3 +32,6 @@ site :opscode
 # Uncomment to point at a local cookbook on the filesystem, relative to the
 # current working directory.
 # cookbook "myserver", :path => "/code/myserver-cookbook"
+
+site :opscode
+cookbook 'wordpress', '-> 1.1.2'
